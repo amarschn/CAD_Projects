@@ -1,9 +1,6 @@
 # CAD_Projects
 
 
-
-
-
 MRSD Project:
 =============
 
@@ -25,7 +22,7 @@ The design of this robot was rather rushed, and so I focused on minimal build ti
 At Qualcomm I used a top-down design method when constructing assemblies, which has it's pros and cons, but this time around I tried a different tack. I used a text file ("globals.txt") that contained global variables such as module height, width, etc.. I then imported the "global" variables into given Solidworks parts to access the variables I needed. This allowed me to quickly tweak robot physical parameters and have the changes affect all parts at once.
 
 Here is the actual robot once constructed:
-![Actual Robot Assembly](/Images/MRSD_Semester_1_Actual_Assembly.PNG "Actual Robot Assembly")
+![Actual Robot Assembly](/Images/MRSD_Semester_1_Actual_Assembly.JPG "Actual Robot Assembly")
 
 This was my first mobile robot design, and I learned a lot from it. The large unfilled holes you see are for an inter-module connector. We were not able to finish a satisfactory inter-module connector in time for the end of last semester, and so the holes were used for ethernet and power wires.
 
@@ -45,7 +42,19 @@ For the electrical connection I am using pogo pins, which are used to transmit p
 
 I am also using dowel pins as guide rods, which ensure an accurate pogo connection.
 
-![Male Magnetic Connector](/Images/MRSD_Semester_1_Actual_Assembly.PNG "Male Magnetic Connector")
+![Male Magnetic Connector](/Images/MRSD_Semester_2_Male_Magnetic_Connector.PNG "Male Magnetic Connector")
+
+This is the male connector, which as you can see is not using all of the magnet placement holes. This is because there was not enough room in the motor module for mounting all of them (the aluminum extrusion supports got in the way). This design is in a state of change however, and I am planning on using a different magnet placement grid to allow for more magnets.
+
+The first module we have tested this magnetic connector with is a "motor module". This is a new module, one step lower than a locomotion module. The plan is to have motor modules that can be swapped out of a locomotion module, these different motor modules can have different kinds of motors as well as different wheel attachments. Once connected each motor module will communicate these details to the brain, which will dynamically update the robot's model. Below you can see the current CAD model for the motor module.
+
+![Motor Module](/Images/MRSD_Semester_2_Motor_Module.PNG "Motor Module")
+
+We have now built 2 of these, and they work pretty well! The magnetic connector works and is relatively sturdy. The next steps are to rebuild a locomotion base which will accept motor modules of this size, and to add the magnetic connector to appropriate faces of the brain module. We also will be building sensor modules using the same form factor as the motor module. So say the locomotion module had 4 different module connectors, you could swap out different motors and sensors quickly and easily and have an entirely new kind of robot! I am pretty excited about it and think by the end of the semester we will have a very cool re-configurable robot.
+
+![Actual Motor Module](/Images/MRSD_Semester_2_Actual_Motor_Module.JPG "Actual Motor Module")
+![Motor Module Connector](/Images/MRSD_Semester_2_Actual_Magnetic_Connector.JPG "Motor Module Connector")
+
 
 
 Automated Durometer:
