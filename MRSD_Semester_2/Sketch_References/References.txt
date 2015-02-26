@@ -1,0 +1,5 @@
+
+
+"motor_module_height" = 80
+"motor_module_width" = 80
+"motor_module_length" = 170
