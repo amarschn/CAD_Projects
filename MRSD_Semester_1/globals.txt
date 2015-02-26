@@ -1,0 +1,39 @@
+
+"connector_D1" = 70 'the big holes diameter
+"mtg_hole_D" = 5.5 'mounting holes
+"mtg_dfc" = 40 'mounting hole distance from center
+
+
+"plate_thickness" = 6.35 'thickness of the plate 
+"t_height" = 200
+"t_width" = 240
+"t_length" = 240
+
+"plate_hole_from_edge" = 9
+
+"plate_spacing" = 1
+
+"front_plate_height" = "t_height" + 38
+"front_plate_width" = "t_width" + 38
+
+"side_plate_height" = "front_plate_height"
+"side_plate_length" = "t_length" + 38
+
+"top_plate_width" = "front_plate_width"
+"top_plate_length" = "side_plate_length"
+
+"itx_support_t_slot_length" = "t_width" + (2 * 20.5)
+
+
+"locomotion_length" = "t_length"
+"locomotion_width" = "t_width"
+"locomotion_height" = 40
+
+"itx_mtg_hole_spacing" = 40
+
+"emg30_bracket_hole_len" = 60
+"emg30_bracket_hole_wid" = 11
+
+"perce_t_height" = 50
+"perce_top_width" = 170
+"perce_mtg_hole_spacing" = "perce_top_width" - 20
