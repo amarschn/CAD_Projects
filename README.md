@@ -60,6 +60,8 @@ We have now built 2 of these, and they work pretty well! The magnetic connector 
 Automated Durometer:
 --------------------
 
+The files for this project are located in a different repository, which can be found [here] (https://github.com/amarschn/Durometer_Assembly). The top-level assembly is called 'Durometer_Assembly' and can be downloaded in STP format if necessary.
+
 This was a brief project I worked on over Christmas break. The goal was to automate a durometer (device for measuring hardness of different materials, in this case different kinds of rubber) for a scientific devices manufacturer.
 
 ![Basic Durometer](/Images/Durometer_Manual_Assembly.PNG "Basic Durometer")
