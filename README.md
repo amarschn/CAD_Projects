@@ -55,7 +55,11 @@ We have now built 2 of these, and they work pretty well! The magnetic connector 
 ![Actual Motor Module](/Images/MRSD_Semester_2_Actual_Motor_Module.JPG "Actual Motor Module")
 ![Motor Module Connector](/Images/MRSD_Semester_2_Actual_Magnetic_Connector.JPG "Motor Module Connector")
 
+For the locomotion module, the plan is to have 4 module slots open to motor or sensor modules with the same form factor as the motor module seen above. I am trying to create a more visually pleasing aesthetic as compared to last semester. Below is one of the concepts for the module:
 
+![Locomotion Module Concept](/Images/MRSD_Semester_2_Locomotion_Module_Concept.png "Locomotion Module Concept")
+
+By using laser cut acrylic or delrin on the top and bottom, and a thin 3D-printed ABS shell, the robot will be much more sleek as well as well within the team's limited budget.
 
 Automated Durometer:
 --------------------
